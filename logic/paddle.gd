@@ -28,3 +28,7 @@ func _on_area_entered(area):
 	if area.name == "Ball":
 		# Assign new direction.
 		area.direction = Vector2(_ball_dir, randf() * 2 - 1).normalized()
+
+func _mouse_enter():
+	if 1 == 1:
+		print_debug("wauw")
